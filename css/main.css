@@ -1,4 +1,13 @@
 /* Place CSS styles here */
 body {
+  color: white;
   font-family: 'Comfortaa', cursive;
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.70),
+      rgba(0, 0, 0, 0.70)
+    ),
+    url(../img/gizmo_dancing_on_the_moon_lonely_starry_night_surreal.png);
+
+  background-size: cover;
 }
