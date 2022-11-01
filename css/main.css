@@ -18,6 +18,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.kitkat-intro-image {
+  width: 200px;
 }
 
 .kitkat-intro-paragraph {
