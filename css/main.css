@@ -21,6 +21,10 @@ body {
   flex-direction: column;
 }
 
+.kitkat-audio {
+  margin-bottom: 32px;
+}
+
 .kitkat-intro-image {
   width: 200px;
 }
