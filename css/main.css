@@ -12,6 +12,22 @@ body {
   background-size: cover;
 }
 
+@media screen and (max-width: 600px) {
+  body {
+    background:
+    linear-gradient(
+      rgba(255, 0, 0, 0.70),
+      rgba(255, 0, 0, 0.70)
+    ),
+    url(../img/gizmo_dancing_on_the_moon_lonely_starry_night_surreal.png);
+    background-size: cover;
+  }
+}
+
+img, picture, video {
+  max-width: 100%;
+}
+
 .kitkat-intro-container {
   min-height: 100vh;
   width: 100%;
@@ -27,6 +43,14 @@ body {
 
 .kitkat-intro-image {
   width: 200px;
+}
+
+/* table view */
+@media screen and (min-width: 768px) {
+  .kitkat-intro-image {
+    width: 410px;
+    border: 10px solid #e94a4a;
+  }
 }
 
 .kitkat-intro-paragraph {
@@ -50,6 +74,17 @@ body {
 
 .kitkat-intro-paragraph-drinking {
   font-family: 'Lobster', cursive;
+  transition: all 1s ease;
+}
+
+@media screen and (min-width: 768px) {
+  .kitkat-intro-paragraph-drinking {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    text-transform: uppercase;
+    color: #e94a4a;
+  }
 }
 
 /* Wobble Skew */
